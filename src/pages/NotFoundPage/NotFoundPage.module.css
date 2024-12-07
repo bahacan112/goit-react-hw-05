@@ -1,0 +1,28 @@
+.notFound {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.notFound h1 {
+  font-size: 48px;
+  color: red;
+}
+
+.notFound p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.homeLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.homeLink:hover {
+  background-color: darkblue;
+}

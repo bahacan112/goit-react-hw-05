@@ -1,0 +1,33 @@
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+
+.movieItem {
+  width: 200px;
+  text-align: center;
+  border: 1px solid #4444;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.movieItem img {
+  width: 100%;
+  height: auto;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.noData {
+  color: red;
+  text-align: center;
+}

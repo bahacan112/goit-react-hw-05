@@ -1,0 +1,25 @@
+/* Navigation Stilleri */
+.nav {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Normal Bağlantı */
+.link {
+  color: black;
+  font-weight: bold;
+}
+
+/* Aktif Bağlantı */
+.active {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nav {
+  margin: 10px;
+}

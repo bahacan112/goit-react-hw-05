@@ -1,0 +1,21 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.castItem {
+  width: 200px;
+  text-align: center;
+}
+
+.castItem img {
+  width: 100%;
+  height: auto;
+}
+
+.noData,
+.error {
+  color: red;
+  text-align: center;
+}

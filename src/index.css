@@ -1,0 +1,133 @@
+/* CSS Reset - Modern Sıfırlama Stili */
+
+/* Tüm Öğeler için Kenarlık Kutusu */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML ve BODY Ayarları */
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Başlıklar */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: #222;
+}
+
+/* Paragraflar */
+p {
+  margin-bottom: 1em;
+}
+
+/* Liste Öğeleri */
+ul,
+ol {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Bağlantılar */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Görseller */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Form Elemanları */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+input {
+  border-radius: 5px;
+  padding: 5px;
+}
+/* Butonlar */
+button {
+  cursor: pointer;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Tablo Ayarları */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* HTML5 Temelleri */
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main,
+figure,
+figcaption {
+  display: block;
+}
+
+/* Placeholder Stili */
+::placeholder {
+  color: #888;
+}
+
+/* Seçim Stili */
+::selection {
+  background: #222;
+  color: #fff;
+}
+
+/* Kaydırma Çubuğu */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
