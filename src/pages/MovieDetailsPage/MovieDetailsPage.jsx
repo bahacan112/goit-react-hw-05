@@ -40,7 +40,6 @@ function MovieDetailsPage() {
         <p>{movie.overview}</p>
       </div>
 
-      {/* İç İçe Navigasyon Bağlantıları */}
       <nav className={styles.nav}>
         <NavLink
           to="cast"
